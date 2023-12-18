@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+.admission-form{
+    height: auto;
+width: 600px;
+background-color: aqua;
+border: 5px solid blue;
+padding: 20px;
+margin: 0 auto;
+}
+.admission-form h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+.admission-form form{}
+.left-form{
+    width: 50%;
+    float: left;
+}
+.right-form{
+    width: 50%;
+    float: left;
+}
+.form-part{
+    width: 100%;
+    float: left;
+}
+.form-part label{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+.form-part input{
+    width: 80%;
+    padding: 8px 20px;
+}
+.form-part input[type="radio"]{
+    width: 10%;
+}
+.form-part select{
+    width: 90%;
+    padding: 8px 20px;
+}
+.form-part option{}
+.admission-form button{
+    padding: 8px 30px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top:20px ;
+}

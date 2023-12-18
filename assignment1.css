@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(182, 223, 239);
+    
+}
+
+.box{
+    
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 247, 247);
+}
+
+.logo{
+    width: 30%;
+    height: 100%;
+    float: left;
+    color: black;
+}
+.logo img{
+    height: 60px;
+    width: 70px;
+    padding-left: 20px;
+}
+.menu{ 
+    width: 100%;
+    height: 100%;
+    float: left;
+   position: absolute;
+   top: 10px;
+}
+.menu button{
+    color: black;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.menu ul{}
+.menu ul li{
+    float: left;
+    margin-left: 120px;
+    list-style: none;
+    line-height: 60px;
+    top: 30px;
+    right: 150px;
+}
+.menu ul li a:hover{
+    color: blue;
+}
+.menu ul li a{
+    color:rgb(18, 18, 18);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.banner{
+    height: 600px;
+    width: 100%;
+    background-image: url(pic\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 120px;
+    padding-top: 30px;
+    
+}
+.banner h1{
+    padding-top: 50px;
+    padding-right: 1000px;
+   text-decoration: solid;
+   font-size: 4em; 
+}
+.banner h2{
+    padding-right: 900px;
+
+    color:yellow;
+    text-decoration: solid;
+}
+.banner p{
+    padding-right: 900px;
+    text-decoration: solid;
+    font-size: large;
+    font-weight: bold;
+}
+.banner button {
+background-color: yellow;
+color: black;
+margin-right: 900px;
+height: 40px;
+width: 150px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.ourcourse{
+    background-color: white;
+}
+.ourcourse h1{
+    /* padding-top: 50px; */
+    text-align: center;
+   text-decoration: solid; 
+}
+.ourcourse h2{
+    /* padding-right: 900px; */
+text-align: center;
+    color:rgb(255, 170, 0);
+    text-decoration: solid;
+}
+
+.options{ 
+    width: 90%;
+    margin: 0 auto;
+    /* margin: 0px auto; */
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(2,300px) ;
+/* background-color: white; */
+}
+.option-item{
+     
+    margin-left: 10px;
+    display: grid;
+    grid-template-rows: 100px,auto;
+
+    
+}
+.option-item span{
+    text-decoration:underline;
+    font-weight: bold;
+    font-size: 22px;
+}
+.option-item h4{
+    color: rgb(255, 42, 0);
+    text-decoration: solid;
+}
+.option-item img{
+    height: 200px;
+
+
+    
+}
